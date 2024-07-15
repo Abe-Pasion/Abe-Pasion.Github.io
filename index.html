@@ -225,10 +225,7 @@
                   link.click();
                   document.body.removeChild(link);
               }
-          </script>
-          <div class="text-center" style="margin-top: 40px;">
-              <button type="button" class="download" onclick="downloadDocx()">Download DOCX</button>
-          </div>            
+            </script>
             <script>
               function downloadPdf(pdfUrl) {
                 var link = document.createElement('a');
@@ -240,7 +237,8 @@
                 document.body.removeChild(link);
               }
             </script>
-            <div class="text-center" style="margin-top: 20px;">
+            <div class="button-container">
+              <button type="button" class="download" onclick="downloadDocx()">Download DOCX</button>
               <button type="button" class="download" onclick="downloadPdf('assets/img/SP24_Transcript.pdf')">Download PDF</button>
             </div>                      
           </div>

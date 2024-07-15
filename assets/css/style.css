@@ -1144,3 +1144,11 @@ section {
     padding-right: 20px 15px;
   }
 }
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+  align-items: center;
+}
