@@ -150,14 +150,11 @@
     <!-- ======= Resume Section ======= -->
     <section id="resume" class="resume">
       <div class="container">
-
         <div class="section-title">
           <h2>Experience</h2>
         </div>
-
         <div class="row">
-          
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="75">
             <h3 class="resume-title">Professional Experience</h3>
             <div class="resume-item">
               <h4>Software Technology Intern (Cybersecurity focus)</h4>
@@ -188,7 +185,6 @@
                 </ul>
               </div>
           </div>
-
           <div class="col-lg-6" data-aos="fade-up">
             <h3 class="resume-title">Education</h3>
             <div class="resume-item">
@@ -221,10 +217,11 @@
               </ul>
             </div>
 
+          </div>
+          <div>
             <h3 class="resume-title">Downloadable Links</h3>
             <div class="resume-item pb-0">
               <h4>Download Resume</h4>
-
               <script>
                 function downloadDocx() {
                     var pdfUrl = 'assets/img/Resume.docx';
@@ -237,33 +234,29 @@
                     document.body.removeChild(link);
                 }
             </script>
-            
             <div class="text-center" style="margin-top: 40px;">
                 <button type="button" class="download" onclick="downloadDocx()">Download DOCX</button>
             </div>            
-             
               <script>
                 function downloadPdf(pdfUrl) {
                   var link = document.createElement('a');
                   link.href = pdfUrl;
                   link.target = '_blank';
-                  link.download = "Abe_Pasion_Resume";
+                  link.download = "Abe_Pasion_Transcript";
                   document.body.appendChild(link);
                   link.click();
                   document.body.removeChild(link);
                 }
               </script>
-
               <div class="text-center" style="margin-top: 20px;">
-                <button type="button" class="download" onclick="downloadPdf('assets/img/Abe_Pasion_Resume.pdf')">Download PDF</button>
+                <button type="button" class="download" onclick="downloadPdf('assets/img/SP24_Transcript.pdf')">Download PDF</button>
               </div>                      
             </div>
-
           </div>
         </div>
-
       </div>
-    </section><!-- End Resume Section -->
+    </section>
+    <!-- End Resume Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio section-bg">
