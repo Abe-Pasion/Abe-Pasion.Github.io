@@ -474,8 +474,8 @@ section {
 }
 
 .icon {
-  width: 70px; /* Adjust the width of the icon container */
-  height: 70px; /* Adjust the height of the icon container */
+  width: 100px; /* Adjust the width of the icon container */
+  height: 100px; /* Adjust the height of the icon container */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
 }
